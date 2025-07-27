@@ -1,16 +1,147 @@
-nav {
-    display: flex;
-    flex-direction: row;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden; /* Hides horizontal scroll */
+}
+.logo {
+    position: relative;
+    top: 43px;
+    left: 90px;
+}
+.nav {
+    position: relative;
+    margin-top: 40px;
+    left: 800px;
+    color: white;
+    font-size: 17px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    display: inline;
 }
 li {
     display:inline;
     padding-right: 20px;
 }
-img {
-    margin-right: 720px;
-}
 .background {
     background-image: url('images/Object.png');
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    width: 100%;
+}
+@font-face {font-family: 'SourceSansPro-Lightlt';
+    src: url('fonts/SourceSansPro-Lightlt.otf') ;
+}
+h1 {
+    color: white;
+    font-size: 90px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: 160px;
+}
+.nav {
+    color: white;
+    font-size: 17px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    display: inline;
+}
+.container1 {
+    text-align: center;
+}
+.span {
+    color: white;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-size: 17px;
+    margin: 0 10px;
+    position: relative;
+    top: 180px;
+}
+.button1 {
+    display: block;
+    color: white;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    background-color: rgb(151, 88, 211);
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 10px 30px; 
+}
+.section1 {
+    color: white;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+    left: 500px;
+}
+.em {
+    color:rgb(148, 87, 204);
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 280px;
+    top: 200px;
+}
+.img3 {
+    width: 150px;         /* Make sure it's square */
+    height: 150px;
+    border-radius: 50%;   /* This turns the square into a circle */
+    object-fit: cover; 
+    left: 40px;
+}
+.name {
+    color: white;
+}
+.description {
+    color: white;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-size: 15px;
+}
+.img1 {
+    position: relative;
+    right: 90px;
+    width: 120px;
+    height: 120px;
+}
+.img2 {
+   position: relative;
+   left: 10px;
+   width: 120px;
+   height: 120px;
+}
+.img3 {
+    position: relative;
+    left: 90px;
+    width: 120px;
+    height: 120px;
+}
+.img4 {
+    position: relative;
+    left: 170px;
+    width: 120px;
+    height: 120px;
+}
+.tag1 {
+    position: relative;
+    right: 90px;
+}
+.tag3 {
+    position: relative;
+    left: 90px;
+}
+.tag4 {
+    position: relative;
+    left: 170px;
 }
