@@ -112,26 +112,26 @@ h1 {
 .img1 {
     position: relative;
     right: 90px;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 .img2 {
    position: relative;
    left: 10px;
-   width: 120px;
-   height: 120px;
+   width: 140px;
+   height: 140px;
 }
 .img3 {
     position: relative;
     left: 90px;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 .img4 {
     position: relative;
     left: 170px;
-    width: 120px;
-    height: 120px;
+    width: 140px;
+    height: 140px;
 }
 .tag1 {
     position: relative;
@@ -144,4 +144,37 @@ h1 {
 .tag4 {
     position: relative;
     left: 170px;
+}
+.section2 {
+    position: relative;
+    top: 300px;
+    background-color: rgb(192, 134, 247);
+    height: 50vh;
+}
+.redshirtguy {
+    position: relative;
+    top: 70px;
+    left: 250px;
+    width: 140px;
+    height: 140px;
+}
+.redshirtguy_reaction {
+    color: white;
+    font-family:  'SourceSansPro-Lightlt', sans-serif;
+    font-size: 20px;;
+    position: relative;
+    bottom: 60px;
+    left: 500px;
+}
+.person_name {
+    position: relative;
+    top: 30px;
+}
+.weather {
+    position: relative;
+    top: 15px;
+}
+.section3 {
+    position: relative;
+    top: 350px;
 }
