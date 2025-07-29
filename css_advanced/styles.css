@@ -176,5 +176,206 @@ h1 {
 }
 .section3 {
     position: relative;
-    top: 350px;
+    right: 80px;
+    top: 440px;
+    display: flex;
+    flex-direction: row;
+}
+.most_popular_tutorials {
+    position: relative;
+    bottom: 90px;
+    left: 500px;
+
+    font-family:'SourceSansPro-Lightlt', sans-serif;
+}
+.popular {
+    color:rgb(178, 107, 244);
+    font-weight: bold;
+}
+.section4 {
+    position: relative;
+    top: 500px;
+    background-color: black;
+    background-size: 400px;
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+}
+.section5 {
+    position: relative;
+    top:590px;
+}
+.section6 {
+    display: flex;
+    position: relative;
+    top: 900px;
+    background-color: black;
+    height: 300px;
+}
+.stars1 {
+    display: flex;
+    flex-direction: row;
+    color:blueviolet;
+}
+.stars2 {
+    display: flex;
+    flex-direction: row;
+    color:blueviolet;
+}
+.stars3 {
+    display: flex;
+    flex-direction: row;
+    color:blueviolet;
+}
+.stars4 {
+    display: flex;
+    flex-direction: row;
+    color:blueviolet
+}
+.rating {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top:40px;
+}
+.min {
+    color:blueviolet;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+}
+.phillips_review {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+}
+.phillip {
+    position: relative;
+    height: 40px;
+}
+.phil {
+    position: relative;
+    left:50px;
+    top: 10px;
+    color:blueviolet;
+    font-family:'SourceSansPro-Lightlt', sans-serif;
+}
+.free_membership {
+    color: white;
+    position: relative;
+    top:30px;
+    left: 500px;
+    display: inline;
+}
+.smile {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 30px; 
+    position: relative;
+    left: 30px;
+    gap: 30px;
+}
+.feature {
+    display: flex;
+    flex-direction: column;
+    color:aliceblue;
+    position: relative;
+    top: 120px;
+}
+.purple {
+    color: blueviolet;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+}
+.lorem_ipsum {
+    position: relative;
+    top: 20px;
+    right: 30px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+}
+.lorem {
+    position: relative;
+    top: 10px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+}
+.button2 {
+    display: block;
+    color: white;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    background-color: rgb(151, 88, 211);
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 10px 30px; 
+    position: relative;
+    right:500px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 110px;
+    gap: 40px;
+}
+.description{
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    position: relative;
+    top: 6px;
+}
+.FAQ {
+    position: relative;
+    top: 50px;
+    font-size: 70px;
+    left: 500px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+}
+.smile_logo {
+    position: relative;
+    background-color: black;
+    top: 150px;
+    left: 100px;
+}
+.copyright {
+    color: gray;
+    font-family: 'SourceSansPro-Lightlt', sans-serif; 
+    position: relative;
+    left: 400px;
+    
+}
+.question_row1 {
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-size: 25px;
+    position: relative;
+    left: 150px;
+}
+.question_row2 {
+    position: relative;
+    top:40px;
+    left: 150px;
+    font-family: 'SourceSansPro-Lightlt', sans-serif;
+    font-size: 25px;
+}
+.question1 {
+   font-family:  'SourceSansPro-Lightlt', sans-serif;
+   position: relative;
+   top: 30px;
+}
+.question2 {
+   font-family:  'SourceSansPro-Lightlt', sans-serif;
+   position: relative;
+   top: 50px;
+}
+.social_media {
+    position: relative;
+    top: 100px;
+    left: 950px;
+    height: 35px;
+    width: 35px;
+    background-color: aliceblue;
+    border-radius: 20px;
 }
