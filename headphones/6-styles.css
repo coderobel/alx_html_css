@@ -144,9 +144,14 @@ a:hover {
 .plus-two-percent {
   width: 300px; /* or any size */
   height: 300px;
-  background-image: url('images/pentagone.png');
-  background-repeat: no-repeat;
-  background-size: contain; /* or cover */
+  background: orange;
+  clip-path: polygon(
+    50% 0%,   /* top point */
+    100% 38%, /* top-right */
+    82% 100%, /* bottom-right */
+    18% 100%, /* bottom-left */
+    0% 38%    /* top-left */
+  ); /* or cover */
   background-position: center;
   text-align: center;
   padding-top: 120px;
